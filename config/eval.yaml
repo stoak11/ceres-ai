@@ -1,0 +1,22 @@
+# Evaluation contract — team sign-off on Monday
+target_column: yield_t_ha
+grain:
+  - department_code
+  - year
+
+# Primary holdout (recommended for reporting)
+holdout:
+  train_years_max: 2019
+  test_years_min: 2020
+
+# Mandatory baselines
+baselines:
+  - global_mean
+  - dept_mean  # in-sample only — not deployable; report separately
+  - lag1
+
+# Primary metric
+metric: mae_t_ha
+
+# Optional: geo×year aggregation (Eurostat regions) — see legacy repo
+# geo_year_metric: true

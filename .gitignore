@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large optional pulls (do not commit multi-GB weather)
+data/optional/weather_daily/
+data/optional/satellite/
+*.db
+
+# Model artifacts (commit only if small & intentional)
+models/*.pkl
+!models/.gitkeep
+
+# Jupyter
+.ipynb_checkpoints/
