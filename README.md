@@ -47,24 +47,6 @@ ceres-ai/
 
 ---
 
-## Go wider (without fooling yourself)
-
-| Need | Read |
-|------|------|
-| More **labels** at dept×year? | You can't (~1,425 max) — see `docs/DATA_SCALE.md` |
-| **PIK 1900–2018** history? | `data/optional/yield_pik_1900_2018.parquet` |
-| **Daily weather** / satellite series? | Pull from legacy repo — `docs/DATA_SCALE.md` |
-| Full ETL / explorer / HF? | `docs/LEGACY_REPO.md` |
-
----
-
-## Reference repo (conception only)
-
-Private lab work: **`ml-farm-recolt-forecast`** — not the team remote.  
-Refresh mart: re-export `modeling_mart.csv` from legacy → copy to `data/mart/`.
-
----
-
 ## MVP checklist
 
 See `docs/KICKOFF.md`.
@@ -73,4 +55,4 @@ See `docs/KICKOFF.md`.
 
 ## License
 
-MIT (add before public push if required by Le Wagon).
+MIT
